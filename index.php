@@ -12,6 +12,7 @@
  * @subpackage  Timber
  * @since   Timber 0.1
  */
+echo "hello world";
 
 $context          = Timber::context();
 $context['posts'] = new Timber\PostQuery();
