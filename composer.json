@@ -1,0 +1,21 @@
+{
+  "name": "mengwei/customthemewithtimber",
+  "description": "mengwei first WP Theme",
+  "type":"wordpress-theme",
+  "minimum-stability" : "stable",
+  "authors": [
+    {
+      "email": "mengwei@hellosafe.fr",
+      "name": "mengwei"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+	  "timber/timber": "1.*"
+  }
+}
